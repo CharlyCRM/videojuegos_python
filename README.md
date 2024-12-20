@@ -1,7 +1,7 @@
 # videojuegos_python
 Repositorio que contiene videojuegos hechos con python
 
-# Juego del Ahorcado
+# Juego del Ahorcado - ahoracado.py
 
 ¡Bienvenido al juego del ahorcado! Este es un juego simple desarrollado en Python, donde el objetivo es adivinar la palabra antes de que se complete el dibujo del ahorcado. Cada letra o palabra incorrecta reduce tus intentos, ¡así que juega con cuidado!
 
