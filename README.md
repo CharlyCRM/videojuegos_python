@@ -1,36 +1,19 @@
-# videojuegos_python
-Repositorio que contiene videojuegos hechos con python
+# Un ahorcado para practicar Python
 
-# Juego del Ahorcado - ahorcado.py
+Este juego de terminal fue una forma de practicar clases, entradas de usuario y cambios de estado. Separé las reglas del ahorcado de la interfaz que muestra la palabra, los intentos y la puntuación.
 
-¡Bienvenido al juego del ahorcado! Este es un juego simple desarrollado en Python, donde el objetivo es adivinar la palabra antes de que se complete el dibujo del ahorcado. Cada letra o palabra incorrecta reduce tus intentos, ¡así que juega con cuidado!
+## Jugar
 
-Requisitos del Sistema
+Necesitas Python 3 y una terminal interactiva. Solo utiliza módulos de la biblioteca estándar.
 
-Este juego es compatible con:
+```sh
+python3 ahorcado.py
+```
 
-•	Windows y Mac
+Puedes introducir una letra o la palabra completa. Cada fallo resta un intento y 25 puntos; una letra correcta suma 50 puntos por aparición. Acertar la palabra completa suma 50 por su longitud. Hay seis intentos para cada palabra.
 
-## Cómo Jugar
+## Revisar el código
 
-1.	Ejecución: Ejecuta el archivo principal del juego haciendo doble clic
+`Ahorcado` conserva letras, errores e intentos. `Interfaz` muestra el progreso y limpia la terminal. Es un ejemplo pequeño de separación entre reglas y presentación.
 
-2. Introducción: Al iniciar, el juego te solicitará tu nombre. Introduce un nombre y comienza jugar.
-
-3.	Instrucciones:
-  - Adivina una letra escribiéndola y presionando Enter.
-  - También puedes intentar adivinar la palabra completa.
-  - Cada letra correcta te da puntos, mientras que cada letra o palabra incorrecta te penaliza.
-  - Tienes 6 intentos. Si los pierdes todos, el juego termina y se revelará la palabra oculta.
-  - Si adivinas la palabra correctamente, el juego seleccionará automáticamente una nueva palabra para continuar.
-
-## Puntuación
-
-	•	Letra correcta: +50 puntos por cada aparición de la letra en la palabra.
-	•	Palabra completa adivinada: +50 puntos multiplicado por la longitud de la palabra.
-	•	Letra o palabra incorrecta: -25 puntos.
-
-## Créditos
-
-	•	Desarrollador: Carlos Ramírez Martín
-	•	Contacto: Puedes encontrarme en www.linkedin.com/in/carlosramirezmartin
+Mantengo el comportamiento de la práctica, incluidos los casos límite de reinicio. No tiene interfaz gráfica, guardado ni pruebas automatizadas. Es parte de mi aprendizaje de Python, no un videojuego publicado.
